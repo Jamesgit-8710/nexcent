@@ -8,10 +8,10 @@ const Calender = () => {
       <Image src={calender_image} alt="mobile_login" height={480} />
       <div className="w-[660px] flex flex-col justify-around">
         <div className="w-[650px] ml-20">
-          <h2 className="font-semibold text-[38px] leading-[44px]  mb-2">
+          <h2 className="font-semibold text-[38px] leading-[44px]  mb-2 text-dark-gray">
           How to design your site footer like we did
           </h2>
-          <p className="text-[14px] mt-4">
+          <p className="text-[14px] mt-4 text-light-gray">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit
             amet justo ipsum. Sed accumsan quam vitae est varius fringilla.
             Pellentesque placerat vestibulum lorem sed porta. Nullam mattis
