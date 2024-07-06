@@ -1,9 +1,10 @@
+import FeaturePage from '@/pages/featurePage'
 import React from 'react'
 
 const Feature = () => {
   return (
     <div>
-      Feature
+      <FeaturePage />
     </div>
   )
 }

@@ -1,9 +1,10 @@
+import FaqPage from '@/pages/faqPage'
 import React from 'react'
 
 const Faq = () => {
   return (
     <div>
-      Faq
+      <FaqPage />
     </div>
   )
 }

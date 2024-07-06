@@ -2,9 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
+@layer base {
+  :root {
+    --primary: green;
+    --secondary: darkgray;
+    --text-primary: lightgray;
+    --text-secondary: white;
+    --background-primary: #F5F7FA;
+    --background-secondary: white;
+  }
 
+  .dark {
+    --primary: green;
+    --secondary: darkgray;
+    --text-primary: lightgray;
+    --text-secondary: white;
+    --background-primary: #F5F7FA;
+    --background-secondary: white;
+  }
+}
