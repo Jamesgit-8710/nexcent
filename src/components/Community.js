@@ -3,8 +3,6 @@ import {
   Card,
   CardContent,
   CardDescription,
-  CardFooter,
-  CardHeader,
   CardTitle,
 } from "./ui/card";
 import clubs_and_groups from "@/assets/SVGs/clubs_and_groups.svg";
@@ -44,7 +42,7 @@ const Community = () => {
       <div className="flex w-full justify-between">
         {data.map((card_data) => {
           return (
-            <Card className="w-[300px] h-[280px] border-0 mt-10">
+            <Card className="w-[300px] h-[280px] border-0 mt-10 shadow-lg">
               <CardContent>
                 <div className="flex flex-col items-center gap-5 py-5 h-full w-full text-center">
                   <Image

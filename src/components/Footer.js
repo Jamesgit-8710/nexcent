@@ -69,7 +69,7 @@ const Footer = () => {
         </div>
         <div>
           <h1 className="font-semibold text-[1.3rem]">Stay up to date</h1>
-          <Input placeholder="Your email address" className="w-[300px] bg-transparent mt-9" />
+          <Input placeholder="Your email address" className="w-[300px] bg-[#FFFFFF1a] text-white mt-9 border-0" />
         </div>
       </div>
     </div>

@@ -28,6 +28,14 @@ body{
   background-color: var(--background-secondary) !important;
 }
 
+.dummyPage{
+  height: 70vh;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 body::-webkit-scrollbar{
   display: none;
 }

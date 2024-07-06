@@ -17,7 +17,7 @@ const Customers = () => {
           {/* <h2 className="font-semibold text-[38px] leading-[44px]  mb-2">
             The unseen of spending three years at Pixelgrade
           </h2> */}
-          <p className="text-[16px] w-[800px] font-bold text-[1.1rem] text-dark-gray">
+          <p className="text-[16px] w-[800px] font-semibold text-[1.1rem] text-dark-gray">
             Maecenas dignissim justo eget nulla rutrum molestie. Maecenas
             lobortis sem dui, vel rutrum risus tincidunt ullamcorper. Proin eu
             enim metus. Vivamus sed libero ornare, tristique quam in, gravida
