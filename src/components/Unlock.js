@@ -20,7 +20,7 @@ const Unlock = () => {
             elementum pulvinar odio.
           </p>
         </div>
-       <div> <Button>Learn More </Button></div>
+       <div> <Button className='h-[58px] w-[180px] text-[1.2rem]'>Learn More </Button></div>
       </div>
     </div>
   );

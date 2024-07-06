@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "@/assets/SVGs/log.svg";
+import logo from "@/assets/SVGs/lightLogo.svg";
 import Image from "next/image";
 import instagram_icon from "@/assets/SVGs/instagram_icon.svg";
 import twitter_icon from "@/assets/SVGs/twitter_icon.svg";
@@ -10,71 +10,66 @@ import { Input } from "./ui/input";
 
 const Footer = () => {
   return (
-    <div className="bg-[#263238] flex justify-between py-5 px-[10%]">
+    <div className="bg-[#263238] flex justify-between py-[80px] px-[10%] font-light">
       <div className="w-[300px]">
         <div className="flex flex-col gap-4">
           <div className="flex gap-2">
-            <Image src={logo} width={48} height={48} alt="Logo" />
-            <h1 className="font-semibold text-[48px]">Nexcent</h1>
+            <Image src={logo} height={33} alt="Logo" />
           </div>
-          <>
+          <div className="my-7 text-white text-[0.9rem]">
             <h1>Copyright 2020 Nexcent ltd.</h1>
             <h1>All rights reserved</h1>
-          </>
+          </div>
           <div className="flex gap-3">
             <Image
               alt="youtube_icon"
               src={youtube_icon}
-              height={48}
-              width={48}
+              height={35}
             />
             <Image
               alt="twitter_icon"
               src={twitter_icon}
-              height={48}
-              width={48}
+              height={35}
             />
             <Image
               alt="dribble_icon"
               src={dribble_icon}
-              height={48}
-              width={48}
+              height={35}
             />
             <Image
               alt="instagram_icon"
               src={instagram_icon}
-              height={48}
-              width={48}
+              height={35}
             />
           </div>
         </div>
       </div>
-      <div className="flex px-10 gap-10">
+      <div className="flex px-10 gap-10 text-white">
         <div>
-            <h1>Company</h1>
-            <br />
-            <ol>
-                <li><Link href="">About us</Link></li>
-                <li><Link href="">Blog</Link></li>
-                <li><Link href="">Contact us</Link></li>
-                <li><Link href="">Pricing</Link></li>
-                <li><Link href="">Testimonials</Link></li>
-            </ol>
+          <h1 className="font-semibold text-[1.3rem]">Company</h1>
+          <br />
+          <ol>
+            <li className="mt-2 text-[0.9rem]"><Link href="">About us</Link></li>
+            <li className="mt-2 text-[0.9rem]"><Link href="">Blog</Link></li>
+            <li className="mt-2 text-[0.9rem]"><Link href="">Contact us</Link></li>
+            <li className="mt-2 text-[0.9rem]"><Link href="">Pricing</Link></li>
+            <li className="mt-2 text-[0.9rem]"><Link href="">Testimonials</Link></li>
+          </ol>
         </div>
         <div>
-            <h1>Support</h1>
-            <br />
-            <ol>
-                <li><Link href="">Help center</Link></li>
-                <li><Link href="">Terms of service</Link></li>
-                <li><Link href="">Legal</Link></li>
-                <li><Link href="">Privacy Policy</Link></li>
-                <li><Link href="">Status</Link></li>
-            </ol>
+          <h1 className="font-semibold text-[1.3rem]">Support</h1>
+          <br />
+          <ol>
+            <li className="mt-2 text-[0.9rem]"><Link href="">Help center</Link></li>
+            <li className="mt-2 text-[0.9rem]"><Link href="">Terms of service</Link></li>
+            <li className="mt-2 text-[0.9rem]"><Link href="">Legal</Link></li>
+            <li className="mt-2 text-[0.9rem]"><Link href="">Privacy Policy</Link></li>
+            <li className="mt-2 text-[0.9rem]"><Link href="">Status</Link></li>
+          </ol>
         </div>
         <div>
-            <h1>Stay up to date</h1>
-            <Input placeholder="Your email address" className="w-[300px] bg-transparent  "/>
+          <h1 className="font-semibold text-[1.3rem]">Stay up to date</h1>
+          <Input placeholder="Your email address" className="w-[300px] bg-transparent mt-9" />
         </div>
       </div>
     </div>
