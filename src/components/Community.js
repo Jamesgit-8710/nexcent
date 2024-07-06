@@ -39,10 +39,10 @@ const Community = () => {
       <h1 className="font-semibold text-[36px] text-dark-gray">in a single system</h1>
       <p className="text-light-gray">Who is Nextcent suitable for?</p>
 
-      <div className="flex w-full justify-between">
-        {data.map((card_data) => {
+      <div className="flex w-full justify-between items-center flex-col lg:flex-row">
+        {data.map((card_data,index) => {
           return (
-            <Card className="w-[300px] h-[280px] border-0 mt-10 shadow-lg">
+            <Card key={index} className="w-[300px] h-[280px] border-0 mt-10 shadow-lg">
               <CardContent>
                 <div className="flex flex-col items-center gap-5 py-5 h-full w-full text-center">
                   <Image

@@ -10,14 +10,17 @@ import client5 from '@/assets/SVGs/client5.svg'
 import client6 from '@/assets/SVGs/client6.svg'
 const Customers = () => {
   return (
-    <div className=" flex bg-light-blue py-[32px] pb-[45px] gap-20 px-[10%] ">
-      <Image src={customer_image} alt="mobile_login" height={500} />
+    <div className=" flex bg-light-blue py-[32px] pb-[45px] gap-20 px-[7%] ">
+      <div>
+      <Image src={customer_image} alt="mobile_login" height={2500} className="hidden sm:block" />
+      </div>
+      
       <div className=" flex flex-col mt-2  gap-3">
         {/* <div className="w-[600px] "> */}
           {/* <h2 className="font-semibold text-[38px] leading-[44px]  mb-2">
             The unseen of spending three years at Pixelgrade
           </h2> */}
-          <p className="text-[16px] w-[800px] font-semibold text-[1.1rem] text-dark-gray">
+          <p className="text-[16px] w-[91%] font-semibold text-[1.1rem] text-dark-gray">
             Maecenas dignissim justo eget nulla rutrum molestie. Maecenas
             lobortis sem dui, vel rutrum risus tincidunt ullamcorper. Proin eu
             enim metus. Vivamus sed libero ornare, tristique quam in, gravida
@@ -33,20 +36,16 @@ const Customers = () => {
           <h4 className=" text-green-500 font-semibold text-[20px] mt-3 text-green">Tim Smith</h4>
           <p className="text-dark-gray">British Dragon Boat Racing Association</p>
 
-          <div className="flex gap-5 mt-5">
+          <div className="flex gap-5 mt-5 flex-col sm:flex-row">
             <Image src={client1} alt="client" height={48} width={48}/>
             <Image src={client2} alt="client" height={48} width={48}/>
             <Image src={client3} alt="client" height={48} width={48}/>
             <Image src={client4} alt="client" height={48} width={48}/>
             <Image src={client5} alt="client" height={48} width={48}/>
             <Image src={client6} alt="client" height={48} width={48}/>
-            <Button variant="ghost" className="text-green text-[1.4rem] font-bold mt-1 ml-10">Meet all customers </Button>
+            
           </div>
-        {/* </div> */}
-        {/* <div>
-          {" "}
-          <Button>Learn More </Button>
-        </div> */}
+          <Button variant="ghost" className="w-[215px] text-green text-[1.4rem] font-bold mt-5">Meet all customers </Button>
       </div>
     </div>
   );

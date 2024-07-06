@@ -41,32 +41,29 @@ const HomePage = () => {
                     <span className="text-[64px] font-semibold leading-[76px] text-dark-gray">
                       Lessons and insights
                     </span>
-                    {/* <br /> */}
-                    <span className="text-[64px] font-semibold text-green-500 leading-[76px] text-green">
+                    <span className="text-[64px] font-semibold leading-[76px] text-green">
                       from 8 years
                     </span>
-                    <p className="py-6 text-light-blue">
+                    <p className="py-6 text-light-gray">
                       Where to grow your business as a photographer: site or social media?
                     </p>
                     <div>
                       <Button className='h-[58px] w-[180px] text-[1.2rem]'>Register</Button>
                     </div>
                   </div>
-                  {/* <div className=" w-[40%] h-full"> */}
                   <Image
                     alt="computer-image"
                     height={407}
                     width={391}
                     src={computer_image}
+                    className="hidden lg:block"
                   />
-                  {/* </div> */}
                 </div>
               </div>
             </CarouselItem>
           ))}
         </CarouselContent>
       </Carousel>
-      {/* <Hero /> */}
       <Clients />
       <Community />
       <Unlock />

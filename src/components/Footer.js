@@ -10,7 +10,7 @@ import { Input } from "./ui/input";
 
 const Footer = () => {
   return (
-    <div className="bg-[#263238] flex justify-between py-[80px] px-[10%] font-light">
+    <div className="bg-[#263238] flex flex-col lg:flex-row justify-between py-[80px] px-[10%] font-light">
       <div className="w-[300px]">
         <div className="flex flex-col gap-4">
           <div className="flex gap-2">
@@ -44,7 +44,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="flex px-10 gap-10 text-white">
+      <div className="flex flex-col sm:flex-row lg:px-10 pt-10 lg:pt-0 gap-10 text-white">
         <div>
           <h1 className="font-semibold text-[1.3rem]">Company</h1>
           <br />
@@ -69,7 +69,7 @@ const Footer = () => {
         </div>
         <div>
           <h1 className="font-semibold text-[1.3rem]">Stay up to date</h1>
-          <Input placeholder="Your email address" className="w-[300px] bg-[#FFFFFF1a] text-white mt-9 border-0" />
+          <Input placeholder="Your email address" className="w-auto bg-[#FFFFFF1a] text-white mt-9 border-0" />
         </div>
       </div>
     </div>

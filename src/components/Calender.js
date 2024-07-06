@@ -5,9 +5,9 @@ import { Button } from "./ui/button";
 const Calender = () => {
   return (
     <div className=" flex mt-[60px] px-[10%] pb-[60px]">
-      <Image src={calender_image} alt="mobile_login" height={480} />
-      <div className="w-[660px] flex flex-col justify-around">
-        <div className="w-[650px] ml-20">
+      <Image src={calender_image} alt="mobile_login" height={480} className="hidden lg:block" />
+      <div className="flex flex-col justify-around">
+        <div className="ml-20">
           <h2 className="font-semibold text-[38px] leading-[44px]  mb-2 text-dark-gray">
           How to design your site footer like we did
           </h2>

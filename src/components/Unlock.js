@@ -5,9 +5,9 @@ import { Button } from "./ui/button";
 const Unlock = () => {
   return (
     <div className="flex px-[10%] justify-between mb-20 mt-10">
-      <Image src={mobile_login} alt="mobile_login" height={350} />
-      <div className="w-[660px] flex flex-col justify-around gap-3">
-        <div className="w-[600px] ">
+      <Image src={mobile_login} alt="mobile_login" height={350} className="hidden lg:block"/>
+      <div className=" flex flex-col justify-around gap-3">
+        <div >
           <h2 className="font-semibold text-[38px] leading-[44px]  mb-2 text-dark-gray">
             The unseen of spending three years at Pixelgrade
           </h2>
